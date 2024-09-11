@@ -4,14 +4,14 @@ import currency from 'currency.js';
 
 type ThenableReference = firebase.database.ThenableReference;
 
-const config = {
-  apiKey: 'AIzaSyA0c1akMZuNjqCKy8XPOJMkt2gCxhbRTDo',
-  authDomain: 'rece-a5835.firebaseapp.com',
-  projectId: 'rece-a5835',
-  storageBucket: 'rece-a5835.appspot.com',
-  messagingSenderId: '952022605285',
-  appId: '1:952022605285:web:dc6c4ad42eaeb6bf1ae30c',
-  measurementId: 'G-6Z1RJYKRSE',
+const firebaseConfig = {
+  apiKey: "AIzaSyC5xtitJsaUKDSzEZV1bD4KUuSG9ETVVYU",
+  authDomain: "bobthebiller-6462e.firebaseapp.com",
+  projectId: "bobthebiller-6462e",
+  storageBucket: "bobthebiller-6462e.appspot.com",
+  messagingSenderId: "393651022942",
+  appId: "1:393651022942:web:2480827b1cab2f743498cf",
+  measurementId: "G-HK2ZM5J70K"
 };
 
 firebase.initializeApp(config);
